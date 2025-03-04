@@ -3,13 +3,14 @@
   "version": "1.0.0",
   "main": "src/server.js",
   "scripts": {
-    "dev": "node src/server.js"
+    "dev": "tsx watch src/server.ts"
   },
   "author": "Diogo Wernek",
   "license": "ISC",
   "description": "Criando uma API REST com Node.js",
   "devDependencies": {
     "@types/node": "^20.14.12",
+    "tsx": "^4.16.2",
     "typescript": "^5.5.4"
   }
 }
